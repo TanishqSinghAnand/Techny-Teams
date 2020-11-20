@@ -140,7 +140,9 @@
     flex-direction: row-reverse;    
 }
 
-.sectionTag
+.sectionTag{
+    padding: 16px 0;
+}
 
 .sectionSubTag {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
