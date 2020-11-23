@@ -1,118 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Responsive Web Dev</title>
-</head>
+  </head>
 
-<body>
-    <nav class="navbar background">
-        <ul class="nav-list">
-            <div class="logo">
-                <img src="img/image.jpeg" alt="logo" />
-            </div>
-            <li>
-                <a href="#home">
-                    Home
-                </a>
-            </li>
-
-            <li>
-                <a href="#about">
-                    About
-                </a>
-            </li>
-
-            <li>
-                <a href="#services">
-                Services
-                </a>
-            </li>
-
-            <li>
-                <a href="#contact">
-                Contact
-                </a>
-            </li>
-        </ul>
-        <div class="rightNav">
-            <input type="text" name="search" id="search" value="search" />
-            <button class="btn btn-sm">Search</button>
+  <body>
+    <nav class="navbar background h-nav-resp" >
+      <ul class="nav-list v-class-resp">
+        <div class="logo">
+          <img src="img/image.jpeg" alt="logo" />
         </div>
+        <li>
+          <a href="#home"> Home </a>
+        </li>
+
+        <li>
+          <a href="#about"> About </a>
+        </li>
+
+        <li>
+          <a href="#services"> Services </a>
+        </li>
+
+        <li>
+          <a href="#contact"> Contact </a>
+        </li>
+      </ul>
+      <div class="rightNav v-class-resp">
+        <input type="text" name="search" id="search" />
+        <button class="btn btn-sm">Search</button>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </nav>
-    <section class="background firstSection">
-        <div class="box-main">
-            <div class="firstHalf">
-                <p class="text-big">
-                    The Future of Coding is here
-                </p>
-                <p class="text-small">
-                    In this world of more than 7 Billion people we need to teach coding
-                    to all . The Future of Coding is here!!
-                </p>
-                <div class="buttons">
-                    <button class="btn">
-                        Sign up
-                    </button>
-                    <button class="btn">
-                        Log in
-                    </button>
-                </div>
-            </div>
-            <div class="secondHalf">
-                <img src="img/image.jpeg" alt="Thug Life image">
-            </div>
+    <section class="background firstSection" id="home">
+      <div class="box-main">
+        <div class="firstHalf">
+          <p class="text-big">The Future of Coding is here</p>
+          <p class="text-small">
+            In this world of more than 7 Billion people we need to teach coding
+            to all . The Future of Coding is here!!
+          </p>
+          <div class="buttons">
+            <button class="btn">Sign up</button>
+            <button class="btn">Log in</button>
+          </div>
         </div>
+        <div class="secondHalf">
+          <img src="img/image.jpeg" alt="Thug Life image" />
+        </div>
+      </div>
     </section>
 
-    <section class="section">
-        <div class="paras">
-            <p class="sectionTag text-big">
-                Why coding is important?
-            </p>
-            <p class="sectionSubTag text-small">
-                Have you ever wondered that how are these laptops , mobile phones , smart television devices
-                work? The simple answer it by coding . This this modern era in which we can built our own 
-                apps and websites as per as our use.Outside from the implications of coding which look good on a resume, coding actually does boost skills which are actually useful to most jobs. Problem solving and logic are the main two. Learning to code is like an exercise session for the “left” side of the brain.
-                     
-            </p>
-        </div>
-        <div class="thumbnail">
-            <img src="https://source.unsplash.com/900x900/?coding,python" alt="Coding" class="imgFluid">
-        </div>
+    <section class="section"  id="about">
+      <div class="paras">
+        <p class="sectionTag text-big">Why coding is important?</p>
+        <p class="sectionSubTag text-small">
+          Have you ever wondered that how are these laptops , mobile phones ,
+          smart television devices work? The simple answer it by coding . This
+          this modern era in which we can built our own apps and websites as per
+          as our use.Outside from the implications of coding which look good on
+          a resume, coding actually does boost skills which are actually useful
+          to most jobs. Problem solving and logic are the main two. Learning to
+          code is like an exercise session for the “left” side of the brain.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img
+          src="./img/image.jpeg"
+          alt="Coding"
+          class="imgFluid"
+        />
+      </div>
     </section>
     <section class="section section-left">
-        <div class="paras">
-            <p class="sectionTag text-big">
-                How should I learn to code
-            </p>
-            <p class="sectionSubTag text-small">
-                To learn to code there are many ways and only once cost that is will to code  . Untill and
-                unless u want to code noone in the world can stop u from coding. I, Tanishq Singh Anand 
-                , am feeling proud to annouce the launch of Techny Teams a free YouTube course for programming            
-            </p>
-        </div>
-        <div class="thumbnail">
-            <img src="https://source.unsplash.com/900x900/?programming,javascript" alt="Coding" class="imgFluid">
-        </div>
+      <div class="paras">
+        <p class="sectionTag text-big">How should I learn to code</p>
+        <p class="sectionSubTag text-small">
+          To learn to code there are many ways and only once cost that is will
+          to code . Untill and unless u want to code noone in the world can stop
+          u from coding. I, Tanishq Singh Anand , am feeling proud to annouce
+          the launch of Techny Teams a free YouTube course for programming
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img
+          src="./img/image.jpeg"
+          alt="Coding"
+          class="imgFluid"
+        />
+      </div>
     </section>
-    <section class="section">
-        <div class="paras">
-            <p class="sectionTag text-big">
-                What are the programming languages Teachny Teams will teach?
-            </p>
-            <p class="sectionSubTag text-small">
-                Techny Teams is going to start from scratch and move to advance step by step .
-                We will go from basic HTML , CSS and Javascript then move on to advnace React , React Native , Python and much more ......  
-            </p>
-        </div>
-        <div class="thumbnail">
-            <img src="https://source.unsplash.com/900x900/?microsoft,google,java,coding" alt="Coding" class="imgFluid">
-        </div>
+    <section class="section" id="services">
+      <div class="paras">
+        <p class="sectionTag text-big">
+          What are the programming languages Teachny Teams will teach?
+        </p>
+        <p class="sectionSubTag text-small">
+          Techny Teams is going to start from scratch and move to advance step
+          by step . We will go from basic HTML , CSS and Javascript then move on
+          to advnace React , React Native , Python and much more ......
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img
+          src="./img/image.jpeg"
+          alt="Coding"
+          class="imgFluid"
+        />
+      </div>
     </section>
-</body>
+    <section class="contact" id="contact">
+      <h1 class="text-advance">Contact us</h1>
+      <div class="form">
+        <input
+          class="form-input"
+          type="text"
+          class="name"
+          id="name"
+          placeholder="Enter Your Name"
+        />
+        <input
+          class="form-input"
+          type="text"
+          class="phone"
+          id="phone"
+          placeholder="Enter Your Phone"
+        />
+        <input
+          class="form-input"
+          type="email"
+          class="email"
+          id="email"
+          placeholder="Enter Your Email"
+        />
+        <textarea
+          class="form-input"
+          name="text"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Elaborate your concern"
+        ></textarea>
+        <div class="btn-center">
+          <button class="btn btn-sm btn-dark">Submit</button>
+        </div>
+      </div>
+    </section>
 
+    <footer class="tsa background">
+      <p class="text-footer">
+        Copyright &copy; 2020 www.technyteams.netlify.app - All Rights Reserved.
+        <br>
+          <p class="text-footer">
+            Techny Teams
+          </p>
+      </p>
+    </footer>
+    <script src="js/resp.js"></script>
+  </body>
 </html>
