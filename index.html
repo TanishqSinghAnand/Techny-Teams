@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css">
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="img/image.jpeg"
+    />
     <title>Techny Teams</title>
   </head>
 
@@ -15,7 +20,7 @@
           <img src="img/image.jpeg" alt="logo" />
         </div>
         <li>
-          <a href="#home"> Home </a>
+          <a href="#"> Home </a>
         </li>
 
         <li>
@@ -40,7 +45,7 @@
         <div class="line"></div>
       </div>
     </nav>
-    <section class="background firstSection" id="home">
+    <section class="background firstSection" id="#">
       <div class="box-main">
         <div class="firstHalf">
           <p class="text-big">The Future of Coding is here</p>
@@ -141,15 +146,22 @@
           id="email"
           placeholder="Enter Your Email"
         />
+        <input
+          class="form-input"
+          type="text"
+          class="subject"
+          id="subject"
+          placeholder="Subject"
+        />
         <textarea
           class="form-input"
-          name="text"
-          id="text"
+          name="compose"
+          id="compose"
           cols="30"
           rows="10"
           placeholder="Elaborate your concern"
         ></textarea>
-        <div class="btn-center">
+        <div class="btn-center send-btn">
           <button class="btn btn-sm btn-dark">Submit</button>
         </div>
       </div>
@@ -164,6 +176,7 @@
           </p>
       </p>
     </footer>
+    <script src="./js/contact.js"></script>
     <script src="js/resp.js"></script>
   </body>
 </html>
